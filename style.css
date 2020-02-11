@@ -1,0 +1,78 @@
+/* Colors and fonts */
+body {
+	background: #f0e3ff;
+	color: rgb(50,50,50);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #3e206d;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color: #916dd5;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #d89cf6;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: #3e206d;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+	border-radius: 5px;
+	margin: 50px
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color:#d89cf6;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+.btn-blue:hover {
+	background-color: #3e206d;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
